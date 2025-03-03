@@ -27,6 +27,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="flex">
+          {/* nav bar */}
+          <p>home</p>
+          <p>01. resume</p>
+          <p>02. projects</p>
+          {/* or group into personal */}
+          <p>03. my hub</p>
+          {/* <p>03. reading</p>
+          <p>04. writing</p>
+          <p>05. gallery</p> */}
+        </div>
         {children}
       </body>
     </html>
